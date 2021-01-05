@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Groundwork AI empowers Geoprofessionals with Advanced Data Analytics and Machine Learning.">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+{#    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}"/>#}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link href="{{ url_for('static', filename='styles/custom.css') }}" rel="stylesheet">
+{#    <!-- Global site tag (gtag.js) - Google Analytics -->#}
+{#    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J19CZ2H1SM"></script>#}
+{#    <script>#}
+{#      window.dataLayer = window.dataLayer || [];#}
+{#      function gtag(){dataLayer.push(arguments);}#}
+{#      gtag('js', new Date());#}
+{##}
+{#      gtag('config', 'G-J19CZ2H1SM');#}
+{#    </script>#}
+    <script defer src="https://use.fontawesome.com/releases/v5.11.1/js/all.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bulma-divider@0.2.0/dist/css/bulma-divider.min.css" rel="stylesheet">
+    {% block head %}
+    {% endblock head %}
+  </head>
+
+  <body>
+    <section class="hero is-fullheight">
+
+      <!-- NAVIGATION -------------------------------------------------------->
+      {% block navbar %}
+      {% endblock navbar %}
+
+
+      <!-- PAGE CONTENT ------------------------------------------------------>
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          {% block hero_body %}
+          {% endblock hero_body %}
+        </div>
+      </div>
+
+      <!-- FOOTER -------------------------------------------------------------->
+      <div class="hero-footer mb-3">
+          {% block footer %}
+          {% endblock footer %}
+      </div>
+
+    </section>
+  </body>
+</html>
