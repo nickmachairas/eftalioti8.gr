@@ -1,0 +1,13 @@
+.head-div {
+    background-color: #f5f5f5;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.gray-div {
+    background-color: #f5f5f5;
+}
+
+.same-height {
+    max-height: 300px;
+}

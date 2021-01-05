@@ -2,12 +2,197 @@
 
 {% block hero_body %}
 
-    <h1 class="title">
-        Welcome!
-    </h1>
-    <p>
-        Nice to see you here.
-    </p>
+    <div class="columns head-div">
+        <div class="column has-text-centered">
+            <p class="is-size-4">
+                ΠΑΝΑΓΙΩΤΗΣ ΜΑΧΑΙΡΑΣ & ΣΙΑ Ε.Ε.
+            </p>
+            <p class="is-size-5">
+                ΤΕΧΝΙΚΗ ΕΤΑΙΡΕΙΑ
+            </p>
+        </div>
+        <div class="column has-text-centered">
+            <p>
+                Παναγιώτης Μαχαίρας: 6944 355 165 <br>
+                Άννα Μαχαίρα: 6976 636 839 <br>
+                info@eftalioti8.gr
+            </p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column has-text-centered">
+            <h1 class="title" style="color: #c55a11;">
+                ΚΑΤΑΣΚΕΥΗ & ΠΩΛΗΣΗ ΚΑΤΟΙΚΙΩΝ
+            </h1>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <figure class="image m-5">
+                <img src="{{ url_for('static', filename='images/side_view.jpg') }}" alt="side-view">
+            </figure>
+        </div>
+    </div>
+
+    <div class="columns gray-div">
+        <div class="column has-text-centered">
+            <p class="is-size-4">
+                <strong style="color: #c55a11;">
+                    ΑΡΓΥΡΗ ΕΦΤΑΛΙΩΤΗ 8 - ΝΕΑ ΛΕΣΒΟΣ ΑΜΑΡΟΥΣΙΟΥ
+                </strong>
+            </p>
+            <p class="is-size-4">
+                ΤΕΤΡΑΩΡΟΦΟ ΚΤΙΡΙΟ ΚΑΤΟΙΚΙΩΝ, ΜΕ ΥΠΟΓΕΙΟ & ΣΤΕΓΗ
+            </p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="has-text-centered">
+                        <img class="same-height" src="{{ url_for('static', filename='images/front_view.jpg') }}" alt="front-view">
+                    </figure>
+                </div>
+                <div class="card-content has-text-centered">
+                    <p>
+                        ΠΡΟΣΟΨΗ
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="has-text-centered">
+                        <img class="same-height" src="{{ url_for('static', filename='images/back_view.jpg') }}" alt="front-view">
+                    </figure>
+                </div>
+                <div class="card-content has-text-centered">
+                    <p>
+                        ΠΙΣΩ ΟΨΗ
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <figure class="has-text-centered">
+                        <img class="same-height" src="{{ url_for('static', filename='images/section.jpg') }}" alt="front-view">
+                    </figure>
+                </div>
+                <div class="card-content has-text-centered">
+                    <p>
+                        ΤΟΜΗ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns gray-div">
+        <div class="column has-text-centered">
+            <p class="is-size-4 has-text-weight-bold">
+                ΔΙΑΘΕΣΙΜΕΣ ΚΑΤΟΙΚΙΕΣ
+            </p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column px-1">
+            <div class="card">
+                <div class="card-content">
+                    <p class="is-size-5 has-text-weight-semibold">
+                        Ισογείου ορόφου:
+                    </p>
+                    <div class="content">
+                        <ul>
+                            <li>Διαμέρισμα ΙΣ1 <strong>77 τ.μ.</strong> <small>[<strong>2</strong> υπνοδωμάτια]</small></li>
+                            <li>Διαμέρισμα ΙΣ2 <strong>54 τ.μ.</strong> <small>[<strong>1</strong> υπνοδωμάτιο]</small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column px-1">
+            <div class="card">
+                <div class="card-content">
+                    <p class="is-size-5 has-text-weight-semibold">
+                        1<sup>ου</sup> ορόφου:
+                    </p>
+                    <div class="content">
+                        <ul>
+                            <li>Διαμέρισμα Α1 <strong>82 τ.μ.</strong> <small>[<strong>2</strong> υπνοδωμάτια]</small></li>
+                            <li>Διαμέρισμα Α2 <strong>102 τ.μ.</strong> <small>[<strong>3</strong> υπνοδωμάτια]</small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column px-1">
+            <div class="card">
+                <div class="card-content">
+                    <p class="is-size-5 has-text-weight-semibold">
+                        2<sup>ου</sup> ορόφου:
+                    </p>
+                    <div class="content">
+                        <ul>
+                            <li>Διαμέρισμα Β1 <strong>87 τ.μ.</strong> <small>[<strong>2</strong> υπνοδωμάτια]</small></li>
+                            <li>Διαμέρισμα Β2 <strong>109 τ.μ.</strong> <small>[<strong>3</strong> υπνοδωμάτια]</small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column px-1">
+            <div class="card">
+                <div class="card-content">
+                    <p class="is-size-5 has-text-weight-semibold">
+                        3<sup>ου</sup> ορόφου:
+                    </p>
+                    <div class="content">
+                        <ul>
+                            <li>Διαμέρισμα Γ1 <strong>87 τ.μ.</strong> <small>[<strong>2</strong> υπνοδωμάτια]</small></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns gray-div">
+        <div class="column has-text-centered">
+            <p class="is-size-4 has-text-weight-bold">
+                ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ & ΠΑΡΑΡΤΗΜΑΤΑ
+            </p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column has-text-centered">
+            <div class="card">
+                <div class="card-content">
+                    <p class="is-size-5">
+                        Πολυτελής κατασκευή &nbsp; | &nbsp; Ενδοδαπέδια θέρμανση &nbsp; | &nbsp; Ανανεώσιμες πηγές ενέργειας
+                        &nbsp; | &nbsp; Ξύλινα δάπεδα &nbsp; | &nbsp; Ηλεκτρικά ρολά &nbsp; | &nbsp; Ενεργειακά κουφώματα
+                        θερμοδιακοπτόμενα &nbsp; | &nbsp; Ενεργειακή κλάση Β+ &nbsp; | &nbsp; Υπόγεια θέση στάθμευσης
+                        &nbsp; | &nbsp; Αποθήκη υπογείου &nbsp; | &nbsp; Πρόβλεψη προσβασιμότητας ΑΜΕΑ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: #c55a11;">
+        <p>&nbsp;</p>
+    </div>
+
+
+
 
 
 {% endblock hero_body %}

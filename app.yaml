@@ -1,4 +1,4 @@
-service: eftalioti8
+service: default
 runtime: python38
 
 handlers:

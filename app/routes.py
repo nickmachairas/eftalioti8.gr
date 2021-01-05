@@ -9,4 +9,4 @@ def page_not_found(e):
 
 @app.route('/')
 def home():
-    return render_template('home.html', title='Home')
+    return render_template('home.html', title='Εφταλιώτη 8 Πολυτελείς κατοικίες')
